@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAFAFA"
+    android:padding="24dp">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note Taking App"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Title Input -->
+    <EditText
+        android:id="@+id/titleInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="write note title..."
+        android:textColorHint="#888888"
+        android:inputType="textCapWords"
+        android:background="@drawable/input_bg"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Content Input -->
+    <EditText
+        android:id="@+id/contentInput"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="write your note..."
+        android:textColorHint="#888888"
+        android:background="@drawable/input_bg"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="top"
+        android:layout_marginBottom="24dp"
+        android:inputType="textCapSentences|textMultiLine" />
+
+    <!-- Save Note Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Save Note"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/black_button"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Show List Button -->
+    <Button
+        android:id="@+id/showListButton"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Show Notes"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/black_button"
+        android:textSize="16sp" />
+</LinearLayout>
