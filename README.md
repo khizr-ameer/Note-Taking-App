@@ -50,25 +50,7 @@ A simple and lightweight **Note Taking Android App** built using **Java** and **
 
 ---
 
-## 📂 Project Structure
 
-nta4/
-├── app/
-│ ├── java/
-│ │ └── com/example/nta4/
-│ │ ├── MainActivity.java
-│ │ ├── NotesListActivity.java
-│ │ └── NoteDetailActivity.java
-│ ├── res/
-│ │ └── layout/
-│ │ ├── activity_main.xml
-│ │ ├── activity_notes_list.xml
-│ │ ├── activity_note_detail.xml
-│ │ └── note_item.xml
-├── AndroidManifest.xml
-├── build.gradle
-
----
 
 ## 🚀 How to Run
 
